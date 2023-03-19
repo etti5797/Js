@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cantora+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class= "wrapper">
+        <div class = "question">
+            <h1>Do you want to watch<br>  Jimin's new music video?</h1>
+            <div class="answer">
+                <button type="button" class="button" id="yes" >Yes!</button> 
+                <button type="button" class="button" id="no" >No!</button>
+            </div>
+        </div>
+
+        <div class="confirmation"> <!-- to define what happens after we click "yes" -->
+            <h2>I knew you would!</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UaywgAqcLxI" 
+            title="YouTube video player" frameborder="0" 
+            id = "vid"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+        </div> 
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
